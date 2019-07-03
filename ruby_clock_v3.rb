@@ -3,8 +3,6 @@ include Run
 include Ws
 include Time_now
 
-Dir.chdir('/home/pi/ext_usb/scripts/ruby_clock/v3')
-
 begin
 Ws.splash
 Run.every_sec(1) do
